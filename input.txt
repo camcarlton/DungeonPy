@@ -1,0 +1,6 @@
+begin Ragnarok campaign -version "5e" -player 4 -realm ("Rainbow_Bridge", "Palace")
+set Asgard realm -location ("Shores_of_Nine")
+set Rainbow_Bridge location -npc ("Balder", "Asgardian Soldier") -creatures "Frost_Gaint"
+set Balder NPC -allignment "NG" -type "Deity" -domains "Light" -level 15 -health"6d6_times_20"
+set Balthazar player -player 1
+start Ragnarok campaign -session 1
